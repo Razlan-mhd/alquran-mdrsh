@@ -45,7 +45,7 @@ const AnimationCard = ({
 
       {/* Content */}
       <div className="pt-10 px-5 pb-6 text-center items-center">
-        <Link href="/course/courseDetails" >
+        <Link href="/courses/courseDetails" >
           <h2 className="text-2xl justify-center items-center font-bold">{heading}</h2>
         </Link>
         <p className="mt-3 text-gray-600 text-sm leading-relaxed">

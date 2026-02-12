@@ -22,7 +22,7 @@ const CardRender = () => {
           description="There are many variations of lorem class passages of lorem ipsum available online"
           imgsrc="/icon/service-1.svg"
           buttonText="Study Now"
-          onButtonClick={() => router.push("Pages/course/courseDetails")}
+          onButtonClick={() => router.push("/courses/courseDetails")}
           text={""}
         />
 
@@ -39,7 +39,7 @@ const CardRender = () => {
             { value: 50, label: "enroll" },
           ]}
           buttonText="Study Now"
-          onButtonClick={() => router.push("Pages/course/courseDetails")}
+          onButtonClick={() => router.push("/courses/courseDetails")}
           text={""}
         />
 
@@ -56,7 +56,7 @@ const CardRender = () => {
             { value: 50, label: "enroll" },
           ]}
           buttonText="Study Now"
-          onButtonClick={() => router.push("Pages/course/courseDetails")}
+          onButtonClick={() => router.push("/courses/courseDetails")}
           text={""}
         />
 
@@ -73,7 +73,7 @@ const CardRender = () => {
             { value: 50, label: "enroll" },
           ]}
           buttonText="Study Now"
-          onButtonClick={() => router.push("Pages/course/courseDetails")}
+          onButtonClick={() => router.push("/courses/courseDetails")}
           text={""}
         />
       </div>

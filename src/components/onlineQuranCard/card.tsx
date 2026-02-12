@@ -37,7 +37,7 @@ const Card = ({
     >
       <div className="relative">
         {/* Image */}
-        <Link href="/course/courseDetails" className=" block">
+        <Link href="/courses/courseDetails" className=" block">
           <div className="group overflow-hidden rounded-xl">
             <img
               src={imageSrc}
@@ -59,7 +59,7 @@ const Card = ({
 
       {/* heading eka */}
       <div className="flex-1">
-        <Link href="/course/courseDetails" className=" block">
+        <Link href="/courses/courseDetails" className=" block">
           <h2 className="text-lg font-bold mt-10 transition-transform hover:text-green-800">
             {heading1}
           </h2>
