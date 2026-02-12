@@ -1,8 +1,10 @@
 "use client";
-import router from "next/router";
+import { useRouter } from "next/router";
 import BlogCard from "./blogCard";
 
 export default function BlogClasicRender() {
+  const router = useRouter();
+
   return (
     <div className="h-fit mt-7 mx-5 md:pl-6 rounded-2xl">
       <BlogCard
