@@ -58,10 +58,10 @@ export default function Footer() {
     <div className="transition-transform hover:right-4">
       <h2 className="text-2xl font-bold py-6">LINKS</h2>
       <Link href="/about/aboutUs" className="block">About Us</Link>
-      <Link href="/pages/scholards" className="block">Scholars</Link>
+      <Link href="/pages/scholards/scholards" className="block">Scholars</Link>
       <Link href="/courses/courses" className="block">Courses</Link>
       <Link href="/" className="block">Latest News</Link>
-      <Link href="/contact/contact" className="block">Contact</Link>
+      <Link href="/contact" className="block">Contact</Link>
     </div>
 
     <div>

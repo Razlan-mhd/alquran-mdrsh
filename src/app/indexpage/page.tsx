@@ -316,7 +316,7 @@ export default function Hero(): JSX.Element {
           <div className="flex-1   rounded-xl flex justify-between">
           <h1 className=" text-2xl md:text-3xl lg:text-4xl font-bold mt-10">Our Islamic Institute<br/>Academy Gallery</h1>
         
-        <Link href="Pages/contact/contact">
+        <Link href="/contact">
           <button className="bg-green-800 mr-20 w-28 lg:-mr-2 lg:w-48 lg:h-14  rounded-lg text-white transition-transform hover:bg-black">
             Quick Start Now
           </button>

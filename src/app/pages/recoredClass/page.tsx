@@ -17,7 +17,7 @@ export default function RecordedClass() {
         >
           Recorded Class
         </h1>
-        <p className="text-xl font-bold text-white text-center items-center justify-center">
+        <p className="text-xl hidden md:flex font-bold text-white text-center items-center justify-center">
           Home
         </p>
       </div>

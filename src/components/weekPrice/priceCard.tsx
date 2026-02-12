@@ -30,7 +30,7 @@ const Card2 = ({
 }: Card2Props) => {
   return (
     <div
-  className="
+      className="
     bg-gray-200
     rounded-3xl
     border-2 border-black
@@ -44,11 +44,11 @@ const Card2 = ({
     w-full
     my-8 md:my-14
   "
->
-  <img
-    src={imageSrc}
-    alt={altText}
-    className="
+    >
+      <img
+        src={imageSrc}
+        alt={altText}
+        className="
       w-24 h-24 sm:w-28 sm:h-28
       rounded-full
       border-4 border-green-600
@@ -56,31 +56,27 @@ const Card2 = ({
       transition-transform
       group-hover:scale-110
     "
-  />
+      />
 
-  <h2 className="mt-4 text-xl sm:text-2xl font-semibold">
-    {heading1}
-  </h2>
+      <h2 className="mt-4 text-xl sm:text-2xl font-semibold">{heading1}</h2>
 
-  <div className="bg-yellow-300 px-3 py-2 rounded-md mt-2">
-    <p className="text-black font-bold text-xs sm:text-sm">
-      {description}
-    </p>
-  </div>
+      <div className="bg-yellow-300 px-3 py-2 rounded-md mt-2">
+        <p className="text-black font-bold text-xs sm:text-sm">{description}</p>
+      </div>
 
-  {text && (
-    <ol className="mt-4 list-decimal list-inside text-left text-sm text-gray-700 space-y-1 font-semibold w-full max-w-xs">
-      {text.map((item, index) => (
-        <li key={index}>{item}</li>
-      ))}
-    </ol>
-  )}
+      {text && (
+        <ol className="mt-4 list-decimal list-inside text-left text-sm text-gray-700 space-y-1 font-semibold w-full max-w-xs">
+          {text.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ol>
+      )}
 
-  <Link href="/course/courseDetails">
-    <button
-      type="button"
-      onClick={onButtonClick}
-      className="
+      <Link href="/courses/courseDetails">
+        <button
+          type="button"
+          onClick={onButtonClick}
+          className="
         mt-6
         w-32 sm:w-36
         h-11 sm:h-12
@@ -92,12 +88,11 @@ const Card2 = ({
         hover:bg-green-700
         transition-colors
       "
-    >
-      {buttonText}
-    </button>
-  </Link>
-</div>
-
+        >
+          {buttonText}
+        </button>
+      </Link>
+    </div>
   );
 };
 export default Card2;
